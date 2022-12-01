@@ -24,8 +24,7 @@ with open("input.txt", "r") as f:
             temp_numbers.append(int(newline))
 
 sums.sort()
-
-
-print(sums)
+print(sums) 
+# since this already prints the top three, there is no need for a coding solution, I just took the last three indices and added them together to get the answer.
 
 
