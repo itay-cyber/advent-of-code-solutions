@@ -1,5 +1,3 @@
-from itertools import islice
-
 priorities = {
     "a": 1,
     "b": 2,
@@ -65,9 +63,8 @@ def part1():
                 if char in compartment2:
                     shared_item_type = char
             sum += priorities[shared_item_type]
-
-
     print(sum)
+    
 def part2():
     with open("input.txt") as f:
         data = f.read()
@@ -80,7 +77,6 @@ def part2():
             for i in range(3):
                 if splitlist != []:
                     group.append(splitlist.pop())
-            
             for char in group[0]:
                 if char in group[1] and char in group[2]:
                     sum += priorities[char]
