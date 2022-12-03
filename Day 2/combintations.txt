@@ -1,0 +1,25 @@
+# Part 1
+AX = Rock + Rock = draw = 3 + 1 = 4
+AY = Rock + Paper = win = 6 + 2 = 8
+AZ = Rock + Scissors = loss = 0 + 3 = 3
+
+BX = Paper + Rock  = loss = 0 + 1 = 1
+BY = Paper + Paper = draw = 3 + 2 = 5
+BZ = Paper + Scissors = win = 6 + 3 = 9
+
+CX = Scissors + Rock =  win = 6 + 1 = 7
+CY = Scissors + Paper = loss = 0 + 2 = 2
+CZ = Scissors + Scissors = draw = 3+3 = 6
+
+# Part 2
+AX = Rock + Lose = Rock + Rock = 3
+AY = Rock + NeedDraw = Rock + Scis0sors = 4
+AZ = Rock + NeedWin = Rock + Paper = 8
+
+BX = pap  + need lose = 1
+BY = Pap + needdraw = 5
+BZ = Pap + needwin = 9
+
+CX = scic + need lose =  2
+CY = scic + need draw = 6
+CZ = scic + need win = 7
